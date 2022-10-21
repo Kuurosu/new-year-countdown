@@ -1,23 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-image: url('/assets/images/fireworks.jpg');
+    background-image: url('/assets/images/snow.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     min-height: 100vh;
     background-position: center center;
-    font-family: 'Fuzzy Bubbles', cursive;
-    color: white;
+    font-family: 'Prompt', sans-serif;
+    color: rgb(66, 66, 66);
     margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: 10rem;
+}
+
+.big-text {
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0 2rem;
 }
 
 .countdown-container {
     display: flex;
+}
+
+.countdown {
+    text-align: center;
+}
+
+.countdown span {
+    font-size: 1.5rem;
 }
