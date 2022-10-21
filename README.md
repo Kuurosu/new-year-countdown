@@ -1,5 +1,7 @@
 # New Year Countdown
 
+Link to deployed page: https://kuurosu.github.io/new-year-countdown/
+
 A simple website that displays the days, hours, minutes, and seconds till 01/01/2023. 
 
 Created to test my JavaScript skills so the HTML and CSS is very simple. But does include scaling for different screen sizes. 
